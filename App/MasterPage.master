@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="image/x-icon" href="imagenes/favicon.ico" rel="shortcut icon" />
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet" />
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server"></telerik:RadStyleSheetManager>
+    <asp:ContentPlaceHolder id="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+        <div id="cabecera" class="container-fluid">
+            
+        </div>
+        <div id="cuerpo" class="container-fluid">
+            <asp:ContentPlaceHolder id="cphContenido" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="pie" class="container-fluid">
+
+        </div>
+    </div>
+    </form>
+    <script src="/jquery-3.3.1.min.js" ></script>
+    <script src="/bs/js/bootstrap.min.js"></script>
+</body>
+    <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+	FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=D%C3%A9janos+tu+email+y+tu+consulta&submitTitle=Enviar&submitThanks=Gracias+por+tu+consulta.+Te+responderemos+por+correo+en+breve.&captcha=yes&searchArea=no", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Soporte efileCoach", "buttonColor": "white", "buttonBg": "#CC1C00", "alignment": "2", "offset": "235px", "submitThanks": "Gracias por tu consulta. Te responderemos por correo en breve.", "formHeight": "500px", "captcha": "yes", "url": "https://efilecoach.freshdesk.com"} );
+</script>
+</html>

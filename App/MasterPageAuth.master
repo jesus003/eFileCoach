@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAuth.master.cs" Inherits="MasterPageAuth" %>
+<%@ Register Src="~/controles/menu.ascx" TagPrefix="uc1" TagName="menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="image/x-icon" href="imagenes/favicon.ico" rel="shortcut icon" />
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="/estilos.css" rel="stylesheet" />
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server"></telerik:RadStyleSheetManager>
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+       
+    </asp:ContentPlaceHolder>
+    <link href="/fontawesome/css/all.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+        <div id="cabecera" class="container-fluid">
+            <asp:ContentPlaceHolder ID="cphMenu" runat="server">
+                <uc1:menu runat="server" id="menu" />
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="cuerpo" class="container-fluid">
+            <asp:ContentPlaceHolder ID="cphContenido" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer class="footer">
+            <div id="pie" class="container-fluid">  
+                <p>efilecoach.com - <a href="https://efilecoach.com/aviso-legal/"
+                    target="_blank">Aviso legal</a> - 
+                    <a href="https://efilecoach.com/politica-de-privacidad/"
+                        target="_blank">Política de privacidad</a>
+                    - <a href="https://efilecoach.com/proteccion-de-datos/"
+                        target="_blank">Protección de datos</a>
+                </p>
+            </div>
+        </footer>
+    </form>
+    <script src="/jquery-3.3.1.min.js"></script>
+    <script src="/bs/js/bootstrap.min.js"></script>
+</body>
+    <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+	FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=D%C3%A9janos+tu+email+y+tu+consulta&submitTitle=Enviar&submitThanks=Gracias+por+tu+consulta.+Te+responderemos+por+correo+en+breve.&searchArea=no", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Soporte efileCoach", "buttonColor": "white", "buttonBg": "#CC1C00", "alignment": "2", "offset": "235px", "submitThanks": "Gracias por tu consulta. Te responderemos por correo en breve.", "formHeight": "500px", "url": "https://efilecoach.freshdesk.com"} );
+</script>
+</html>

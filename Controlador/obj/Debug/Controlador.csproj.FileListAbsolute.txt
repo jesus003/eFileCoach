@@ -1,0 +1,64 @@
+C:\Users\dvela_000\Desktop\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll
+C:\Users\dvela_000\Desktop\eFilecoach 2.0\Controlador\bin\Debug\Controlador.pdb
+C:\Users\dvela_000\Desktop\eFilecoach 2.0\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\dvela_000\Desktop\eFilecoach 2.0\Controlador\obj\Debug\Controlador.dll
+C:\Users\dvela_000\Desktop\eFilecoach 2.0\Controlador\obj\Debug\Controlador.pdb
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.pdb
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.dll
+C:\Users\dvelazquez\OneDrive - WebProgramacion\_compartidoWP\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.pdb
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.pdb
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.dll
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.pdb
+C:\Users\luis\WebProgramacion\Dámaso Velázquez Álvarez - _compartidoWP (1)\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.pdb
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.dll
+C:\Users\dvelazquez\OneDrive - WebProgramacion\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.pdb
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.pdb
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.dll
+C:\Users\dva\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.pdb
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.dll
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\Controlador.pdb
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.dll
+C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Controlador.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.csprojAssemblyReference.cache
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.csproj.CopyComplete
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Google.Protobuf.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\MySql.Data.xml
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019\eFilecoach 2.0 - 2019\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Controlador.dll.config
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Controlador.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\MySql.Data.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\Google.Protobuf.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\bin\Debug\MySql.Data.xml
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.csprojAssemblyReference.cache
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.csproj.CopyComplete
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.dll
+C:\Users\Jesus\Downloads\eFilecoach 2.0 - 2019 - copia\eFilecoach 2.0 - 2019\Controlador\obj\Debug\Controlador.pdb

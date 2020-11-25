@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReportes" targetNamespace="http://tempuri.org/dsReportes.xsd" xmlns:mstns="http://tempuri.org/dsReportes.xsd" xmlns="http://tempuri.org/dsReportes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="efilecoachConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="efilecoachConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Controlador.Properties.Settings.GlobalReference.Default.efilecoachConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VariasRespuestasVariableTableAdapter" GeneratorDataComponentClassName="VariasRespuestasVariableTableAdapter" Name="VariasRespuestasVariable" UserDataComponentName="VariasRespuestasVariableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select p.pregunta,r.respuesta,count(r.respuesta) as cantidad from  diagnosticos_dimensiones_preguntas as p
+inner join diagnosticos_respuestas as r
+on p.id=r.id_pregunta
+inner join diagnosticos_resultados_mixtos as rm
+on r.id = rm.id_respuesta
+group by respuesta;</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReportes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReportes" msprop:Generator_UserDSName="dsReportes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VariasRespuestasVariable" msprop:Generator_TableClassName="VariasRespuestasVariableDataTable" msprop:Generator_TableVarName="tableVariasRespuestasVariable" msprop:Generator_TablePropName="VariasRespuestasVariable" msprop:Generator_RowDeletingName="VariasRespuestasVariableRowDeleting" msprop:Generator_RowChangingName="VariasRespuestasVariableRowChanging" msprop:Generator_RowEvHandlerName="VariasRespuestasVariableRowChangeEventHandler" msprop:Generator_RowDeletedName="VariasRespuestasVariableRowDeleted" msprop:Generator_UserTableName="VariasRespuestasVariable" msprop:Generator_RowChangedName="VariasRespuestasVariableRowChanged" msprop:Generator_RowEvArgName="VariasRespuestasVariableRowChangeEvent" msprop:Generator_RowClassName="VariasRespuestasVariableRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+{
+  "installed": {
+    "client_id": "923738161423-5rr9ucn7n8k61sgqbu3om13fjb5e4u6t.apps.googleusercontent.com",
+    "project_id": "calendario-efilecoach-248305",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "Px0Z_uES8HXGfdyt-LkXrEd8",
+    "redirect_uris": [ "urn:ietf:wg:oauth:2.0:oob", "https://my.efilecoach.com" ]
+  }
+}

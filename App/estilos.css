@@ -1,0 +1,340 @@
+﻿/*Footer*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #6c757d;
+    color: #fff;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+body, input
+{
+    font-family: 'Noto Sans',Arial, sans-serif !important;
+    background-color:#fafafa;
+}
+
+#cuerpo
+{
+    padding-top:80px;
+    padding-bottom:60px;
+    background-color:#fafafa;
+}
+
+#pie
+{
+    
+}
+
+#cabecera nav
+{
+    background-color:aqua;
+}
+
+ul{
+    list-style-type:square;
+}
+
+.iconos li::before {
+    content: "\f06a";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.iconos ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.RadInput_Bootstrap.riSingle .riTextBox, .RadForm_Bootstrap.RadForm.rfdTextbox input.riTextBox.rfdDecorated
+{
+    height: 36px !important;
+}
+
+html body .RadInput_Bootstrap .riTextBox, html body .RadInputMgr_Bootstrap
+{
+    border-color: #ced4da !important;
+}
+
+.RadPicker_Bootstrap .rcCalPopup, .RadPicker_Bootstrap .rcTimePopup {
+    height: 38px;
+}
+
+body
+{
+    font-size: 14px;
+}
+
+
+.RadPicker_Bootstrap .rcCalPopup {
+    height: 34px !important;
+}
+
+.numeros_de_pagina span
+{
+     padding-left:5px;
+     padding-right:5px;
+     font-size:1.1em;
+     display:block;
+     margin-left:3px;
+     margin-right:3px;
+}
+
+.numeros_de_pagina a
+{
+    padding-left:8px;
+    padding-right:8px;
+    font-size:1.1em;
+    display:block;
+    //border:1px solid #A1CDC1;
+    margin-left:3px;
+    margin-right:3px;
+    border: 1px solid #007bff;
+}
+
+.numeros_de_pagina a:hover
+{
+    padding-left:8px;
+    padding-right:8px;
+    font-size:1.1em;
+    display:block;
+    border:1px solid #0094ff;
+    margin-left:3px;
+    margin-right:3px;
+    background-color:#e2e2e2;
+}
+
+.table-bordered tr.numeros_de_pagina td {
+    border: 0px solid #dee2e6;
+}
+
+.paginador .form-control {
+    display: inline !important;
+    width: auto;
+    height: 40px !important;
+    margin-left:20px;
+}
+
+.paginador {
+    margin-top: 9px !important;
+    margin-bottom: 10px;
+}
+
+a.paginas {
+    height: 29px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a.paginas:hover{
+    text-decoration:none;
+    background-color:#007bff;
+    color:#fff;
+    border-color: #007bff;
+}
+
+.paginador_grid {
+    margin-top: -73px;
+    padding-right: 35px;
+}
+
+.paginador_grid select{
+    width:auto;
+    float:right;
+}
+
+.numeros_de_pagina table, .numeros_de_pagina tr {
+    background-color: #fff !important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.form-control
+{
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    font-size: 14px;
+}
+
+select.form-control {
+    height: 35px !important;
+}
+
+.rojo {
+    color: #dc3545;
+}
+
+.RadPicker_Bootstrap .rcTimePopup {
+    height: 34px;
+}
+
+.btn {
+    font-size: 15px !important;
+}
+
+.row {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.rwDialogPopup.radconfirm
+{
+    padding: 0px;
+}
+
+.tablaresultados{
+    width:100%
+}
+
+.tablaresultados td{
+    text-align:center;
+    align-items:center;
+    width:9%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-weight:bold;
+}
+
+.tablaresultados label{
+    display:none;
+}
+
+.autoevaluacion label {
+    padding-left: 0px;
+    vertical-align: central;
+    position: relative;
+    font-weight: bold;
+
+}
+.autoevaluacion input{
+    vertical-align: central;
+    position: relative;
+    margin-top:2px !important;
+
+}
+
+.margen20{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.autoevaluacion.checkbox {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.RadWindow_Bootstrap .rwTitleWrapper {
+    height: 38px !important;
+}
+
+.RadWindow .rwDialogContent {
+    padding-left: 60px !important;
+}
+
+.RadWindow .rwIcon 
+{
+    top: 9px !important;
+}
+
+.RadWindow .rwDialogText {
+    height: 80px;
+}
+
+.RadWindow_Bootstrap .rwTable .rwTitlebarControls em {
+    margin-top: 2px !important;
+}
+
+a.rwIcon {
+    display: none !important;
+}
+
+.RadWindow {
+    width: 300px !important;
+}
+
+.RadWindow .rwDialog
+{
+    background-position: 22px center !important;
+}
+
+.ruInputs .ruFileWrap .ruButton {
+    min-width: 80px;
+}
+
+span.ruButton.ruBrowse {
+    height: 35px !important;
+}
+
+.RadWindow .rwIcon {
+    top: 20px !important;
+}
+
+footer a {
+    color: #dae0e5;
+}
+
+span.rwIcon {
+    display: none !important;
+}
+
+h6.rwTitle {
+    padding-left: 12px !important;
+}
+
+table.rwTitlebarControls {
+    margin-left: 12px !important;
+    margin-right: -12px !important;
+    width: 90% !important;
+}
