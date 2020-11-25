@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AE4AF62-7A3A-4591-8F10-E6654904DEF6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controlador</RootNamespace>
+    <AssemblyName>Controlador</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calendario.cs" />
+    <Compile Include="Cifrado.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="CryptoAES.cs" />
+    <Compile Include="CSesion.cs" />
+    <Compile Include="Cuentas.cs" />
+    <Compile Include="DiagnosticosPlantillas\DiagnosticosPlantillas.cs" />
+    <Compile Include="DiagnosticosPlantillas\DiagnosticosPlantillasDimensiones.cs" />
+    <Compile Include="DiagnosticosPlantillas\DiagnosticosPlantillasDimensionesPreguntas.cs" />
+    <Compile Include="DiagnosticosPlantillas\dsPlantillas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlantillas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnosticos\Diagnosticos.cs" />
+    <Compile Include="Diagnosticos\Dimensiones.cs" />
+    <Compile Include="Diagnosticos\dsDiagnosticos.cs">
+      <DependentUpon>dsDiagnosticos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnosticos\dsDiagnosticos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDiagnosticos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnosticos\Grupos.cs" />
+    <Compile Include="Diagnosticos\Personas.cs" />
+    <Compile Include="Diagnosticos\Preguntas.cs" />
+    <Compile Include="Diagnosticos\Respuestas.cs" />
+    <Compile Include="Diagnosticos\Resultados.cs" />
+    <Compile Include="Diagnosticos\ResultadosMixtos.cs" />
+    <Compile Include="dsCalendario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCalendario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsConfiguracion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConfiguracion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCron.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCron.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCuentas1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCuentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionAsistencia.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionAsistencia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormaciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesActividades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesActividades.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesActividadesAlumnos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesActividadesAlumnos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesActividadesFechas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesActividadesFechas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesActividadesValoracionesAlumnos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesActividadesValoracionesAlumnos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesAlumnos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesAlumnos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesClasesAlumnos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesClasesAlumnos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesMaterias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesMaterias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesObjetivos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesObjetivos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFormacionesTiposValoraciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFormacionesTiposValoraciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsInterfaz.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInterfaz.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsInvitados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInvitados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIUFormacionesTiposActividades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIUFormacionesTiposActividades.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIUTiposDeCuenta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIUTiposDeCuenta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIUUsuariosFinalesTipos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIUUsuariosFinalesTipos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIUUsuariosTipos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIUUsuariosTipos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLogotipos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLogotipos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLogs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLogs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProcesos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProcesos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProcesosSesiones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProcesosSesiones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProcesosSesionesCoachees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProcesosSesionesCoachees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReportes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReportes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUsuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUsuariosFinales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUsuariosFinales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs" />
+    <Compile Include="FormacionAsistencia.cs" />
+    <Compile Include="Formaciones.cs" />
+    <Compile Include="FormacionesActividadesAlumnos.cs" />
+    <Compile Include="FormacionesActividadesFechas.cs" />
+    <Compile Include="FormacionesActividadesValoracionesAlumnos.cs" />
+    <Compile Include="FormacionesAlumnos.cs" />
+    <Compile Include="FormacionesClases.cs" />
+    <Compile Include="FormacionesClasesAlumnos.cs" />
+    <Compile Include="FormacionesMaterias.cs" />
+    <Compile Include="FormacionesTiposValoraciones.cs" />
+    <Compile Include="Interfaz.cs" />
+    <Compile Include="Invitados.cs" />
+    <Compile Include="IUTiposDeCuenta.cs" />
+    <Compile Include="IUTiposFormacionesActividades.cs" />
+    <Compile Include="IUUsuariosFinalesTipos.cs" />
+    <Compile Include="IUUsuariosTipos.cs" />
+    <Compile Include="Logotipos.cs" />
+    <Compile Include="Procesos.cs" />
+    <Compile Include="ProcesosSesiones.cs" />
+    <Compile Include="ProcesosSesionesCoachees.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.cs" />
+    <Compile Include="UsuariosFinales.cs" />
+    <Compile Include="Validador.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiagnosticosPlantillas\dsPlantillas.xsc">
+      <DependentUpon>dsPlantillas.xsd</DependentUpon>
+    </None>
+    <None Include="DiagnosticosPlantillas\dsPlantillas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlantillas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DiagnosticosPlantillas\dsPlantillas.xss">
+      <DependentUpon>dsPlantillas.xsd</DependentUpon>
+    </None>
+    <None Include="Diagnosticos\dsDiagnosticos.xsc">
+      <DependentUpon>dsDiagnosticos.xsd</DependentUpon>
+    </None>
+    <None Include="Diagnosticos\dsDiagnosticos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDiagnosticos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Diagnosticos\dsDiagnosticos.xss">
+      <DependentUpon>dsDiagnosticos.xsd</DependentUpon>
+    </None>
+    <None Include="dsCalendario.xsc">
+      <DependentUpon>dsCalendario.xsd</DependentUpon>
+    </None>
+    <None Include="dsCalendario.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCalendario.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsCalendario.xss">
+      <DependentUpon>dsCalendario.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfiguracion.xsc">
+      <DependentUpon>dsConfiguracion.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfiguracion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConfiguracion.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsConfiguracion.xss">
+      <DependentUpon>dsConfiguracion.xsd</DependentUpon>
+    </None>
+    <None Include="dsCron.xsc">
+      <DependentUpon>dsCron.xsd</DependentUpon>
+    </None>
+    <None Include="dsCron.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCron.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsCron.xss">
+      <DependentUpon>dsCron.xsd</DependentUpon>
+    </None>
+    <None Include="dsCuentas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCuentas1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionAsistencia.xsc">
+      <DependentUpon>dsFormacionAsistencia.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionAsistencia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionAsistencia.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionAsistencia.xss">
+      <DependentUpon>dsFormacionAsistencia.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormaciones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormaciones.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesActividades.xsc">
+      <DependentUpon>dsFormacionesActividades.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividades.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesActividades.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesActividades.xss">
+      <DependentUpon>dsFormacionesActividades.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividadesAlumnos.xsc">
+      <DependentUpon>dsFormacionesActividadesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividadesAlumnos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesActividadesAlumnos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesActividadesAlumnos.xss">
+      <DependentUpon>dsFormacionesActividadesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividadesFechas.xsc">
+      <DependentUpon>dsFormacionesActividadesFechas.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividadesFechas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesActividadesFechas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesActividadesFechas.xss">
+      <DependentUpon>dsFormacionesActividadesFechas.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividadesValoracionesAlumnos.xsc">
+      <DependentUpon>dsFormacionesActividadesValoracionesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesActividadesValoracionesAlumnos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesActividadesValoracionesAlumnos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesActividadesValoracionesAlumnos.xss">
+      <DependentUpon>dsFormacionesActividadesValoracionesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesAlumnos.xsc">
+      <DependentUpon>dsFormacionesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesAlumnos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesAlumnos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesAlumnos.xss">
+      <DependentUpon>dsFormacionesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesClasesAlumnos.xsc">
+      <DependentUpon>dsFormacionesClasesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesClasesAlumnos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesClasesAlumnos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesClasesAlumnos.xss">
+      <DependentUpon>dsFormacionesClasesAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesMaterias.xsc">
+      <DependentUpon>dsFormacionesMaterias.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesMaterias.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesMaterias.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesMaterias.xss">
+      <DependentUpon>dsFormacionesMaterias.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesObjetivos.xsc">
+      <DependentUpon>dsFormacionesObjetivos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesObjetivos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesObjetivos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesObjetivos.xss">
+      <DependentUpon>dsFormacionesObjetivos.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesTiposValoraciones.xsc">
+      <DependentUpon>dsFormacionesTiposValoraciones.xsd</DependentUpon>
+    </None>
+    <None Include="dsFormacionesTiposValoraciones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFormacionesTiposValoraciones.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFormacionesTiposValoraciones.xss">
+      <DependentUpon>dsFormacionesTiposValoraciones.xsd</DependentUpon>
+    </None>
+    <None Include="dsInterfaz.xsc">
+      <DependentUpon>dsInterfaz.xsd</DependentUpon>
+    </None>
+    <None Include="dsInterfaz.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInterfaz.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsInterfaz.xss">
+      <DependentUpon>dsInterfaz.xsd</DependentUpon>
+    </None>
+    <None Include="dsInvitados.xsc">
+      <DependentUpon>dsInvitados.xsd</DependentUpon>
+    </None>
+    <None Include="dsInvitados.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInvitados.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsInvitados.xss">
+      <DependentUpon>dsInvitados.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUFormacionesTiposActividades.xsc">
+      <DependentUpon>dsIUFormacionesTiposActividades.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUFormacionesTiposActividades.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIUFormacionesTiposActividades.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsIUFormacionesTiposActividades.xss">
+      <DependentUpon>dsIUFormacionesTiposActividades.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUTiposDeCuenta.xsc">
+      <DependentUpon>dsIUTiposDeCuenta.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUTiposDeCuenta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIUTiposDeCuenta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsIUTiposDeCuenta.xss">
+      <DependentUpon>dsIUTiposDeCuenta.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUUsuariosFinalesTipos.xsc">
+      <DependentUpon>dsIUUsuariosFinalesTipos.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUUsuariosFinalesTipos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIUUsuariosFinalesTipos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsIUUsuariosFinalesTipos.xss">
+      <DependentUpon>dsIUUsuariosFinalesTipos.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUUsuariosTipos.xsc">
+      <DependentUpon>dsIUUsuariosTipos.xsd</DependentUpon>
+    </None>
+    <None Include="dsIUUsuariosTipos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIUUsuariosTipos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsIUUsuariosTipos.xss">
+      <DependentUpon>dsIUUsuariosTipos.xsd</DependentUpon>
+    </None>
+    <None Include="dsLogotipos.xsc">
+      <DependentUpon>dsLogotipos.xsd</DependentUpon>
+    </None>
+    <None Include="dsLogotipos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLogotipos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsLogotipos.xss">
+      <DependentUpon>dsLogotipos.xsd</DependentUpon>
+    </None>
+    <None Include="dsLogs.xsc">
+      <DependentUpon>dsLogs.xsd</DependentUpon>
+    </None>
+    <None Include="dsLogs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLogs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsLogs.xss">
+      <DependentUpon>dsLogs.xsd</DependentUpon>
+    </None>
+    <None Include="dsProcesos.xsc">
+      <DependentUpon>dsProcesos.xsd</DependentUpon>
+    </None>
+    <None Include="dsProcesos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProcesos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsProcesos.xss">
+      <DependentUpon>dsProcesos.xsd</DependentUpon>
+    </None>
+    <None Include="dsProcesosSesiones.xsc">
+      <DependentUpon>dsProcesosSesiones.xsd</DependentUpon>
+    </None>
+    <None Include="dsProcesosSesiones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProcesosSesiones.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsProcesosSesiones.xss">
+      <DependentUpon>dsProcesosSesiones.xsd</DependentUpon>
+    </None>
+    <None Include="dsProcesosSesionesCoachees.xsc">
+      <DependentUpon>dsProcesosSesionesCoachees.xsd</DependentUpon>
+    </None>
+    <None Include="dsProcesosSesionesCoachees.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProcesosSesionesCoachees.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsProcesosSesionesCoachees.xss">
+      <DependentUpon>dsProcesosSesionesCoachees.xsd</DependentUpon>
+    </None>
+    <None Include="dsReportes.xsc">
+      <DependentUpon>dsReportes.xsd</DependentUpon>
+    </None>
+    <None Include="dsReportes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReportes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsReportes.xss">
+      <DependentUpon>dsReportes.xsd</DependentUpon>
+    </None>
+    <None Include="dsUsuarios.xsc">
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="dsUsuarios.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUsuarios.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsUsuarios.xss">
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="dsUsuariosFinales.xsc">
+      <DependentUpon>dsUsuariosFinales.xsd</DependentUpon>
+    </None>
+    <None Include="dsUsuariosFinales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUsuariosFinales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsUsuariosFinales.xss">
+      <DependentUpon>dsUsuariosFinales.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

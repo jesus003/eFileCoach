@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCron" targetNamespace="http://tempuri.org/dsCron.xsd" xmlns:mstns="http://tempuri.org/dsCron.xsd" xmlns="http://tempuri.org/dsCron.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="efilecoachConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="efilecoachConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Controlador.Properties.Settings.GlobalReference.Default.efilecoachConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista_actividades_cronTableAdapter" GeneratorDataComponentClassName="vista_actividades_cronTableAdapter" Name="vista_actividades_cron" UserDataComponentName="vista_actividades_cronTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_actividades_cron" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        id_formaciones_actividades, idformacion, idprofesor, idcuenta, idalumno, fecha_inicio, tipo_actividad, escoaching, nombre_profesor, apellidos_profesor, email_profesor, nombre_alumno, apellidos_alumno, email_alumno, 
+                         titulo, descripcion, lugar
+FROM            vista_actividades_cron</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_formaciones_actividades" DataSetColumn="id_formaciones_actividades" />
+              <Mapping SourceColumn="idformacion" DataSetColumn="idformacion" />
+              <Mapping SourceColumn="idprofesor" DataSetColumn="idprofesor" />
+              <Mapping SourceColumn="idcuenta" DataSetColumn="idcuenta" />
+              <Mapping SourceColumn="idalumno" DataSetColumn="idalumno" />
+              <Mapping SourceColumn="fecha_inicio" DataSetColumn="fecha_inicio" />
+              <Mapping SourceColumn="tipo_actividad" DataSetColumn="tipo_actividad" />
+              <Mapping SourceColumn="escoaching" DataSetColumn="escoaching" />
+              <Mapping SourceColumn="nombre_profesor" DataSetColumn="nombre_profesor" />
+              <Mapping SourceColumn="apellidos_profesor" DataSetColumn="apellidos_profesor" />
+              <Mapping SourceColumn="email_profesor" DataSetColumn="email_profesor" />
+              <Mapping SourceColumn="nombre_alumno" DataSetColumn="nombre_alumno" />
+              <Mapping SourceColumn="apellidos_alumno" DataSetColumn="apellidos_alumno" />
+              <Mapping SourceColumn="email_alumno" DataSetColumn="email_alumno" />
+              <Mapping SourceColumn="titulo" DataSetColumn="titulo" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="lugar" DataSetColumn="lugar" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_actividades_cron" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByIDProfesor" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIDProfesor" GeneratorSourceName="FillByIDProfesor" GetMethodModifier="Public" GetMethodName="GetDataByIDProfesor" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIDProfesor" UserSourceName="FillByIDProfesor">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT apellidos_alumno, apellidos_profesor, descripcion, email_alumno, email_profesor, escoaching, fecha_inicio, id_formaciones_actividades, idalumno, idcuenta, idformacion, idprofesor, lugar, nombre_alumno, nombre_profesor, tipo_actividad, titulo FROM vista_actividades_cron WHERE (idprofesor = @idprofesor) ORDER BY fecha_inicio, titulo, tipo_actividad, nombre_alumno, apellidos_alumno</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idprofesor" ColumnName="idprofesor" DataSourceName="efilecoach.vista_actividades_cron" DataTypeServer="bigint(20)" DbType="Int64" Direction="Input" ParameterName="@idprofesor" Precision="0" ProviderType="Int64" Scale="0" Size="0" SourceColumn="idprofesor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_actividades_cron" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByProfesor" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByProfesor" GeneratorSourceName="FillByProfesor" GetMethodModifier="Public" GetMethodName="GetDataByProfesor" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByProfesor" UserSourceName="FillByProfesor">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT apellidos_alumno, apellidos_profesor, descripcion, email_alumno, email_profesor, escoaching, fecha_inicio, id_formaciones_actividades, idalumno, idcuenta, idformacion, idprofesor, lugar, nombre_alumno, nombre_profesor, tipo_actividad, titulo FROM vista_actividades_cron GROUP BY idprofesor ORDER BY fecha_inicio, titulo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCron" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCron" msprop:Generator_UserDSName="dsCron">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vista_actividades_cron" msprop:Generator_TableClassName="vista_actividades_cronDataTable" msprop:Generator_TableVarName="tablevista_actividades_cron" msprop:Generator_RowChangedName="vista_actividades_cronRowChanged" msprop:Generator_TablePropName="vista_actividades_cron" msprop:Generator_RowDeletingName="vista_actividades_cronRowDeleting" msprop:Generator_RowChangingName="vista_actividades_cronRowChanging" msprop:Generator_RowEvHandlerName="vista_actividades_cronRowChangeEventHandler" msprop:Generator_RowDeletedName="vista_actividades_cronRowDeleted" msprop:Generator_RowClassName="vista_actividades_cronRow" msprop:Generator_UserTableName="vista_actividades_cron" msprop:Generator_RowEvArgName="vista_actividades_cronRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_formaciones_actividades" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid_formaciones_actividades" msprop:Generator_ColumnPropNameInRow="id_formaciones_actividades" msprop:Generator_ColumnPropNameInTable="id_formaciones_actividadesColumn" msprop:Generator_UserColumnName="id_formaciones_actividades" type="xs:long" />
+              <xs:element name="idformacion" msprop:Generator_ColumnVarNameInTable="columnidformacion" msprop:Generator_ColumnPropNameInRow="idformacion" msprop:Generator_ColumnPropNameInTable="idformacionColumn" msprop:Generator_UserColumnName="idformacion" type="xs:long" />
+              <xs:element name="idprofesor" msprop:Generator_ColumnVarNameInTable="columnidprofesor" msprop:Generator_ColumnPropNameInRow="idprofesor" msprop:Generator_ColumnPropNameInTable="idprofesorColumn" msprop:Generator_UserColumnName="idprofesor" type="xs:long" />
+              <xs:element name="idcuenta" msprop:Generator_ColumnVarNameInTable="columnidcuenta" msprop:Generator_ColumnPropNameInRow="idcuenta" msprop:Generator_ColumnPropNameInTable="idcuentaColumn" msprop:Generator_UserColumnName="idcuenta" type="xs:long" />
+              <xs:element name="idalumno" msprop:Generator_ColumnVarNameInTable="columnidalumno" msprop:Generator_ColumnPropNameInRow="idalumno" msprop:Generator_ColumnPropNameInTable="idalumnoColumn" msprop:Generator_UserColumnName="idalumno" type="xs:long" />
+              <xs:element name="fecha_inicio" msprop:Generator_ColumnVarNameInTable="columnfecha_inicio" msprop:Generator_ColumnPropNameInRow="fecha_inicio" msprop:Generator_ColumnPropNameInTable="fecha_inicioColumn" msprop:Generator_UserColumnName="fecha_inicio" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tipo_actividad" msprop:Generator_ColumnVarNameInTable="columntipo_actividad" msprop:Generator_ColumnPropNameInRow="tipo_actividad" msprop:Generator_ColumnPropNameInTable="tipo_actividadColumn" msprop:Generator_UserColumnName="tipo_actividad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="escoaching" msprop:Generator_ColumnVarNameInTable="columnescoaching" msprop:Generator_ColumnPropNameInRow="escoaching" msprop:Generator_ColumnPropNameInTable="escoachingColumn" msprop:Generator_UserColumnName="escoaching" type="xs:short" minOccurs="0" />
+              <xs:element name="nombre_profesor" msprop:Generator_ColumnVarNameInTable="columnnombre_profesor" msprop:Generator_ColumnPropNameInRow="nombre_profesor" msprop:Generator_ColumnPropNameInTable="nombre_profesorColumn" msprop:Generator_UserColumnName="nombre_profesor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellidos_profesor" msprop:Generator_ColumnVarNameInTable="columnapellidos_profesor" msprop:Generator_ColumnPropNameInRow="apellidos_profesor" msprop:Generator_ColumnPropNameInTable="apellidos_profesorColumn" msprop:Generator_UserColumnName="apellidos_profesor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email_profesor" msprop:Generator_ColumnVarNameInTable="columnemail_profesor" msprop:Generator_ColumnPropNameInRow="email_profesor" msprop:Generator_ColumnPropNameInTable="email_profesorColumn" msprop:Generator_UserColumnName="email_profesor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre_alumno" msprop:Generator_ColumnVarNameInTable="columnnombre_alumno" msprop:Generator_ColumnPropNameInRow="nombre_alumno" msprop:Generator_ColumnPropNameInTable="nombre_alumnoColumn" msprop:Generator_UserColumnName="nombre_alumno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellidos_alumno" msprop:Generator_ColumnVarNameInTable="columnapellidos_alumno" msprop:Generator_ColumnPropNameInRow="apellidos_alumno" msprop:Generator_ColumnPropNameInTable="apellidos_alumnoColumn" msprop:Generator_UserColumnName="apellidos_alumno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email_alumno" msprop:Generator_ColumnVarNameInTable="columnemail_alumno" msprop:Generator_ColumnPropNameInRow="email_alumno" msprop:Generator_ColumnPropNameInTable="email_alumnoColumn" msprop:Generator_UserColumnName="email_alumno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="titulo" msprop:Generator_ColumnVarNameInTable="columntitulo" msprop:Generator_ColumnPropNameInRow="titulo" msprop:Generator_ColumnPropNameInTable="tituloColumn" msprop:Generator_UserColumnName="titulo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21845" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="lugar" msprop:Generator_ColumnVarNameInTable="columnlugar" msprop:Generator_ColumnPropNameInRow="lugar" msprop:Generator_ColumnPropNameInTable="lugarColumn" msprop:Generator_UserColumnName="lugar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21845" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

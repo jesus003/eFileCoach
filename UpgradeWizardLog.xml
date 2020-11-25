@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\Controlador.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\app.config" />
+  <event action="Analyze" type="Success" name="Controlador" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\Controlador\Controlador.csproj" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\actividad.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\actividad.aspx" />
+  <event action="Analyze" type="Success" name="actividad.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\actividad.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\alerta-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\alerta-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="alerta-evaluacion.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\alerta-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="RadEditor.Dialogs.es-ES.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Dialogs.es-ES.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Dialogs.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Dialogs.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Main.es-ES.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Main.es-ES.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Main.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Main.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Modules.es-ES.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Modules.es-ES.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Modules.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Modules.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Tools.es-ES.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Tools.es-ES.resx" />
+  <event action="Analyze" type="Success" name="RadEditor.Tools.resx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\App_GlobalResources\RadEditor.Tools.resx" />
+  <event action="Analyze" type="Success" name="Binary References" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Bin\" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\calendario.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\calendario.aspx" />
+  <event action="Analyze" type="Success" name="calendario.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\calendario.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\cliente.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\cliente.aspx" />
+  <event action="Analyze" type="Success" name="cliente.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\cliente.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\clientes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\clientes.aspx" />
+  <event action="Analyze" type="Success" name="clientes.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\clientes.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\elementos_telerik.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\elementos_telerik.ascx" />
+  <event action="Analyze" type="Success" name="elementos_telerik.ascx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\elementos_telerik.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\menu.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\menu.ascx" />
+  <event action="Analyze" type="Success" name="menu.ascx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\menu.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\UsuarioLogueado.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\UsuarioLogueado.ascx" />
+  <event action="Analyze" type="Success" name="UsuarioLogueado.ascx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\controles\UsuarioLogueado.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Default2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Default2.aspx" />
+  <event action="Analyze" type="Success" name="Default2.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Default2.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\default.aspx" />
+  <event action="Analyze" type="Success" name="default.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\edimension.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\edimension.aspx" />
+  <event action="Analyze" type="Success" name="edimension.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\edimension.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\evaluacion-envios.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\evaluacion-envios.aspx" />
+  <event action="Analyze" type="Success" name="evaluacion-envios.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\evaluacion-envios.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="evaluacion.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\informe-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\informe-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="informe-evaluacion.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\informe-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\pdimension.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\pdimension.aspx" />
+  <event action="Analyze" type="Success" name="pdimension.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\pdimension.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\plantilla.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\plantilla.aspx" />
+  <event action="Analyze" type="Success" name="plantilla.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\plantilla.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\plantillas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\plantillas.aspx" />
+  <event action="Analyze" type="Success" name="plantillas.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\evaluaciones\plantillas.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\form-nueva-cuenta.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\form-nueva-cuenta.html" />
+  <event action="Analyze" type="Success" name="form-nueva-cuenta.html" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\form-nueva-cuenta.html" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\formacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\formacion.aspx" />
+  <event action="Analyze" type="Success" name="formacion.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\formacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\formaciones.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\formaciones.aspx" />
+  <event action="Analyze" type="Success" name="formaciones.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\formaciones.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\gredos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\gredos.aspx" />
+  <event action="Analyze" type="Success" name="gredos.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\gredos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\inicio-cliente.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\inicio-cliente.aspx" />
+  <event action="Analyze" type="Success" name="inicio-cliente.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\inicio-cliente.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\inicio.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\inicio.aspx" />
+  <event action="Analyze" type="Success" name="inicio.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\inicio.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\logo.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\logo.aspx" />
+  <event action="Analyze" type="Success" name="logo.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\logo.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\MasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\MasterPage.master" />
+  <event action="Analyze" type="Success" name="MasterPage.master" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\MasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\MasterPageAuth.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\MasterPageAuth.master" />
+  <event action="Analyze" type="Success" name="MasterPageAuth.master" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\MasterPageAuth.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\mi-cuenta.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\mi-cuenta.aspx" />
+  <event action="Analyze" type="Success" name="mi-cuenta.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\mi-cuenta.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\nueva-cuenta.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\nueva-cuenta.aspx" />
+  <event action="Analyze" type="Success" name="nueva-cuenta.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\nueva-cuenta.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\proceso.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\proceso.aspx" />
+  <event action="Analyze" type="Success" name="proceso.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\proceso.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\procesos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\procesos.aspx" />
+  <event action="Analyze" type="Success" name="procesos.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\procesos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\pruebas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\pruebas.aspx" />
+  <event action="Analyze" type="Success" name="pruebas.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\pruebas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\recuperar-clave.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\recuperar-clave.aspx" />
+  <event action="Analyze" type="Success" name="recuperar-clave.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\recuperar-clave.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\rellena-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\rellena-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="rellena-evaluacion.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\rellena-evaluacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\sesion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\sesion.aspx" />
+  <event action="Analyze" type="Success" name="sesion.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\sesion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\tareas-programadas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\tareas-programadas.aspx" />
+  <event action="Analyze" type="Success" name="tareas-programadas.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\tareas-programadas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\usuario.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\usuario.aspx" />
+  <event action="Analyze" type="Success" name="usuario.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\usuario.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\usuarios.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\usuarios.aspx" />
+  <event action="Analyze" type="Success" name="usuarios.aspx" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\usuarios.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="C:\...\App\" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\App" />
+  <event action="Analyze" type="Success" name="eFileCoach 2.0" path="C:\Users\dvelazquez\Dropbox\dev_Portales\eFilecoach 2.0\eFileCoach 2.0.sln" />
+</log>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCalendario" targetNamespace="http://tempuri.org/dsCalendario.xsd" xmlns:mstns="http://tempuri.org/dsCalendario.xsd" xmlns="http://tempuri.org/dsCalendario.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="efilecoachConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="efilecoachConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Controlador.Properties.Settings.GlobalReference.Default.efilecoachConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista_calendarioTableAdapter" GeneratorDataComponentClassName="vista_calendarioTableAdapter" Name="vista_calendario" UserDataComponentName="vista_calendarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_calendario" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        url, tipo, coach, idcuenta, idformador, titulo, descripcion, fecha_inicio, fecha_fin, objetivos, lugar, nombre, apellidos, telefono, email, id, idgooglecalendar
+FROM            vista_calendario</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tipo" DataSetColumn="tipo" />
+              <Mapping SourceColumn="coach" DataSetColumn="coach" />
+              <Mapping SourceColumn="idcuenta" DataSetColumn="idcuenta" />
+              <Mapping SourceColumn="idformador" DataSetColumn="idformador" />
+              <Mapping SourceColumn="titulo" DataSetColumn="titulo" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="fecha_inicio" DataSetColumn="fecha_inicio" />
+              <Mapping SourceColumn="fecha_fin" DataSetColumn="fecha_fin" />
+              <Mapping SourceColumn="objetivos" DataSetColumn="objetivos" />
+              <Mapping SourceColumn="lugar" DataSetColumn="lugar" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellidos" DataSetColumn="apellidos" />
+              <Mapping SourceColumn="telefono" DataSetColumn="telefono" />
+              <Mapping SourceColumn="email" DataSetColumn="email" />
+              <Mapping SourceColumn="url" DataSetColumn="url" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="idgooglecalendar" DataSetColumn="idgooglecalendar" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_calendario" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByID" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByID" GeneratorSourceName="FillByID" GetMethodModifier="Public" GetMethodName="GetDataByID" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByID" UserSourceName="FillByID">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT apellidos, coach, descripcion, email, fecha_fin, fecha_inicio, id, idcuenta, idformador, idgooglecalendar, lugar, nombre, objetivos, telefono, tipo, titulo, url FROM vista_calendario WHERE (id = @id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="id" ColumnName="id" DataSourceName="efilecoach.vista_calendario" DataTypeServer="varchar(23)(23)" DbType="String" Direction="Input" ParameterName="@id" Precision="0" ProviderType="VarChar" Scale="0" Size="23" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_calendario" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByIDCuenta" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIDCuenta" GeneratorSourceName="FillByIDCuenta" GetMethodModifier="Public" GetMethodName="GetDataByIDCuenta" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIDCuenta" UserSourceName="FillByIDCuenta">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT apellidos, coach, descripcion, email, fecha_fin, fecha_inicio, id, idcuenta, idformador, idgooglecalendar, lugar, nombre, objetivos, telefono, tipo, titulo, url FROM vista_calendario WHERE (idcuenta = @idcuenta)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idcuenta" ColumnName="idcuenta" DataSourceName="efilecoach.vista_calendario" DataTypeServer="bigint(20)" DbType="Int64" Direction="Input" ParameterName="@idcuenta" Precision="0" ProviderType="Int64" Scale="0" Size="0" SourceColumn="idcuenta" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="efilecoachConnectionString (Settings)" DbObjectName="efilecoach.vista_calendario" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByIDUsuario" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIDUsuario" GeneratorSourceName="FillByIDUsuario" GetMethodModifier="Public" GetMethodName="GetDataByIDUsuario" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIDUsuario" UserSourceName="FillByIDUsuario">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT apellidos, coach, descripcion, email, fecha_fin, fecha_inicio, id, idcuenta, idformador, idgooglecalendar, lugar, nombre, objetivos, telefono, tipo, titulo, url FROM vista_calendario WHERE (idformador = @idprofesor)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idprofesor" ColumnName="idformador" DataSourceName="efilecoach.vista_calendario" DataTypeServer="bigint(20)" DbType="Int64" Direction="Input" ParameterName="@idprofesor" Precision="0" ProviderType="Int64" Scale="0" Size="0" SourceColumn="idformador" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCalendario" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCalendario" msprop:Generator_UserDSName="dsCalendario">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vista_calendario" msprop:Generator_TableClassName="vista_calendarioDataTable" msprop:Generator_TableVarName="tablevista_calendario" msprop:Generator_TablePropName="vista_calendario" msprop:Generator_RowDeletingName="vista_calendarioRowDeleting" msprop:Generator_RowChangingName="vista_calendarioRowChanging" msprop:Generator_RowEvHandlerName="vista_calendarioRowChangeEventHandler" msprop:Generator_RowDeletedName="vista_calendarioRowDeleted" msprop:Generator_UserTableName="vista_calendario" msprop:Generator_RowChangedName="vista_calendarioRowChanged" msprop:Generator_RowEvArgName="vista_calendarioRowChangeEvent" msprop:Generator_RowClassName="vista_calendarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tipo" msprop:Generator_ColumnVarNameInTable="columntipo" msprop:Generator_ColumnPropNameInRow="tipo" msprop:Generator_ColumnPropNameInTable="tipoColumn" msprop:Generator_UserColumnName="tipo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="coach" msprop:Generator_ColumnVarNameInTable="columncoach" msprop:Generator_ColumnPropNameInRow="coach" msprop:Generator_ColumnPropNameInTable="coachColumn" msprop:Generator_UserColumnName="coach" type="xs:short" />
+              <xs:element name="idcuenta" msprop:Generator_ColumnVarNameInTable="columnidcuenta" msprop:Generator_ColumnPropNameInRow="idcuenta" msprop:Generator_ColumnPropNameInTable="idcuentaColumn" msprop:Generator_UserColumnName="idcuenta" type="xs:long" />
+              <xs:element name="idformador" msprop:Generator_ColumnVarNameInTable="columnidformador" msprop:Generator_ColumnPropNameInRow="idformador" msprop:Generator_ColumnPropNameInTable="idformadorColumn" msprop:Generator_UserColumnName="idformador" type="xs:long" />
+              <xs:element name="titulo" msprop:Generator_ColumnVarNameInTable="columntitulo" msprop:Generator_ColumnPropNameInRow="titulo" msprop:Generator_ColumnPropNameInTable="tituloColumn" msprop:Generator_UserColumnName="titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_inicio" msprop:Generator_ColumnVarNameInTable="columnfecha_inicio" msprop:Generator_ColumnPropNameInRow="fecha_inicio" msprop:Generator_ColumnPropNameInTable="fecha_inicioColumn" msprop:Generator_UserColumnName="fecha_inicio" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fecha_fin" msprop:Generator_ColumnVarNameInTable="columnfecha_fin" msprop:Generator_ColumnPropNameInRow="fecha_fin" msprop:Generator_ColumnPropNameInTable="fecha_finColumn" msprop:Generator_UserColumnName="fecha_fin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="objetivos" msprop:Generator_ColumnVarNameInTable="columnobjetivos" msprop:Generator_ColumnPropNameInRow="objetivos" msprop:Generator_ColumnPropNameInTable="objetivosColumn" msprop:Generator_UserColumnName="objetivos" type="xs:string" />
+              <xs:element name="lugar" msprop:Generator_ColumnVarNameInTable="columnlugar" msprop:Generator_ColumnPropNameInRow="lugar" msprop:Generator_ColumnPropNameInTable="lugarColumn" msprop:Generator_UserColumnName="lugar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellidos" msprop:Generator_ColumnVarNameInTable="columnapellidos" msprop:Generator_ColumnPropNameInRow="apellidos" msprop:Generator_ColumnPropNameInTable="apellidosColumn" msprop:Generator_UserColumnName="apellidos">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="url" msprop:Generator_ColumnVarNameInTable="columnurl" msprop:Generator_ColumnPropNameInRow="url" msprop:Generator_ColumnPropNameInTable="urlColumn" msprop:Generator_UserColumnName="url">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="23" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idgooglecalendar" msprop:Generator_ColumnVarNameInTable="columnidgooglecalendar" msprop:Generator_ColumnPropNameInRow="idgooglecalendar" msprop:Generator_ColumnPropNameInTable="idgooglecalendarColumn" msprop:Generator_UserColumnName="idgooglecalendar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
